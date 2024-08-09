@@ -1,0 +1,102 @@
+									
+				HTML e CSS - Cabeçalho, Footer e Variáveis em CSS
+
+=====================================================================================================
+
+
+01. Unidades de Medida:
+
+	03. REM:
+
+		
+
+03. Criando Header e Footer:
+
+	03. Desenvolvendo o Cabealho:
+
+		nav:
+
+		A <nav> tag define um conjunto de links de navegação. E é uma tag semântica, que significa: menu de navegação.
+
+	04. Para saber mais: Padding:
+
+		https://www.w3schools.com/csS/css_padding.asp
+
+	05. REM:
+
+	A rem ("root em") é o tamanho de fonte do elemento-raiz do documento. Diferentemente do em , que pode ser diferente para cada elemento, o rem é constante em todo o documento. 
+
+	Logo se for mudado o tamanho da fonte na configuraao do browser, o rem fará com que a fonte acompanhe!
+
+	06. Importancia das unidades relativas:
+
+	É muito importante utilizarmos as unidades de medidas relativas nos textos e títulos ou até mesmo nos elementos do nosso site, como por exemplo, as imagens.
+
+	Essa medida ajuda as pessoas com baixa visão que precisam alterar a aparência do navegador ou aplicar mais zoom para aumentar o tamanho dos elementos.
+
+	Lembrando que podemos diminuir o zoom da página também quando quisermos ter uma visão mais ampla dos elementos.
+
+	Esse artigo da Alura sobre unidades de medidas pode ajudar bastante o seu aprendizado: Artigo sobre unidade de medidas (https://www.alura.com.br/artigos/guia-de-unidades-no-css).
+
+	Você também pode ver a documentação sobre as Unidades de medidas que foram utilizadas neste curso (https://www.w3schools.com/cssref/css_units.php).
+	
+	
+02. Adaptando Elementos:
+
+	01. Super Unidade de Medida:
+
+	Para textos o rem é uma ótima escolha, mas para imagens links e outros elementos, é melhor utilizarmos a porcentagem pois ela é relativa ao elemento pai.
+
+	Dessa forma criamos uma página proporcional, também conhecida como responsiva.
+
+
+03. Responsividade:
+
+	05. Para Saber Mais, Media Queries:
+
+	https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+
+	06. Para Saber Mais, Responsividade:	
+
+	A responsividade! Quando o site adapta o tamanho de suas páginas(Layout) de acordo com o tamanho da tela do dispositivo no qual ele está sendo acessado ou quando diminuímos o tamanho da janela do navegador (essa transformação pode ser feita também quando aplicamos um zoom na página), dizemos que este site é um site responsivo.
+
+	A responsividade não só altera o tamanho das fontes e elementos, como suporta qualquer mudança como por exemplo: na cor de fundo, cor de texto, bordas, etc. Isso depende dos estilos aplicados dentro das medias queries no arquivo CSS.
+
+	Para mais:
+	https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos
+
+04. Responsividade e GitHub:
+
+	02. Conteúdo Responsivo:
+
+	Quando queremos aumentar o width de um conteúdo para telas menores, podemos usar o auto. Ele é o valor auto, dessa forma, o conteúdo irá se adequar à área da tela conforme necessário.
+
+	Para versão mobile:
+
+	A forma correta de definir a largura na versão mobile é utilizando `width: 100%;`.
+	
+	Isso faz com que o elemento ocupe 100% da largura da tela, garantindo que ela se ajuste perfeitamente ao tamanho da tela do dispositivo móvel.
+
+05. Repositório de GitHub:
+
+	02. Criando o repositório:
+
+	Se escrevermos no browser repo.new e clicarmos enter, ele ja entra na página de de novo repositório. Lembrando que é necessário estar logado no github. 
+
+	Publico x Privado:
+
+		Privado:
+
+	No repositório privado só nós temos acesso, a não ser que nós convidemos outra pessoa para colaborar. Então se tiver um projeto que estamos trabalhando sozinhos ou sozinhas e, por algum motivo, não podemos mostrar o código, como uma feature nova, criamos um repositório privado.
+
+	Nós podemos chamar outras pessoas para trabalhar nesse projeto que está privado, mas precisamos convidá-las.
+
+	Esse projeto não aparece no perfil, é necessário receber um e-mail. Então você envia um e-mail para pessoa que você quer colaborando com você e ela precisa aceitar para ter acesso.
+
+		Publico:
+
+	Já com repositório público, todas as pessoas que entrarem no link da sua aplicação poderão colaborar com você, comentando sobre o seu código.
+
+	No nosso caso deixaremos privado, mas podem deixar o de vocês público.
+	
